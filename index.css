@@ -17,17 +17,25 @@ img {
 h1 {
 	text-align: center;
 }
+h2 {
+	margin-top: 1em;
+}
 .content {
 	margin: 0 auto 0 auto;
 	width: auto;
 	height: 80%;
 }
 @media screen and (max-width: 500px) {
-	figcaption {
-		font-size: smaller;
-		overflow: scroll;
+	h2 {
+		font-size: small;
 	}
-	#small {
-		font-size: 0.7em;
+	h3 {
+		font-size: small;
+	}
+	figcaption {
+		font-size: xx-small;
+	}
+	.small {
+		font-size: 0.53em;
 	}
 }
